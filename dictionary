@@ -1,0 +1,52 @@
+	copy():
+
+Data= { 
+     	"Name":"Leena",
+"Age":21,
+     "Gender":"Female",
+  "Address":"Jalgaon"
+}
+x=Data.copy()
+print(x)
+
+
+
+	Item()
+Data= { 
+     "Name":"Leena",
+      "Age":21,
+      "Gender":"Female",
+      "Address":"Jalgaon"
+}
+x=Data.items()
+print(x)
+
+
+
+	Update():
+
+Data= { 
+     "Name":"Leena",
+      "Age":21,
+      "Gender":"Female",
+      "Address":"Jalgaon"
+}
+Data.update({"Mobile No :":23121212})
+print(Data)
+
+
+
+
+
+	Popitem():
+
+Data= { 
+     "Name":"Leena",
+      "Age":21,
+      "Gender":"Female",
+      "Address":"Jalgaon"
+}
+Data.popitem()
+print(Data)
+
+
