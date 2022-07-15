@@ -1,0 +1,23 @@
+def binary_search(arr, low, high, ele):
+    mid = 0
+
+    while low <= high:
+        mid = (high + low) // 2
+        if arr[mid] < ele:
+            low = mid + 1
+        elif arr[mid] > ele:
+            high = mid - 1
+        else:
+            return mid+1
+    return -1
+arr = [2, 3, 4, 10, 40]
+Element = 4
+low = 0
+high = len(arr) - 1
+
+result = binary_search(arr,low, high,  Element)
+
+if result != -1:
+    print("Element is present at Position", str(result))
+else:
+    print("Element is not present in array")
