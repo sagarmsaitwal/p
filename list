@@ -1,0 +1,27 @@
+	Count():
+
+fruits = ["apple","banana","cherry","Watermelon"]
+x = fruits.count("cherry")
+print(x)
+
+
+		
+	Reverse() :
+		fruits = ["apple","banana","cherry","Watermelon"]
+fruits.reverse()
+print(fruits)
+		1
+
+	append() :
+
+fruits = ["apple","banana","cherry"]
+fruits.append("Guava")
+print(fruits)
+
+
+
+	sort() :
+fruits = ['cherry','apple','banana']
+fruits.sort()
+print(fruits)
+
