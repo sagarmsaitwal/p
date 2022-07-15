@@ -1,0 +1,34 @@
+	Len() :
+
+flowers=("Lily","Rose","Lotus","Hibiscus")
+print("The length of tuple is :",len(flowers))
+
+
+
+	Max() :
+flowers=("Lily","Rose","Lotus","Hibiscus")
+print("The Max value element is :",max(flowers))
+
+
+
+	Min() :
+flowers=("Lily","Rose","Lotus","Hibiscus")
+print("The Min value element is :",min(flowers))
+
+	
+
+	Concat():
+Name=("Leena")
+Surname=("Patil")
+result=Name+Surname
+print("After concat the tuple :",result)
+
+
+	Slice():
+
+numbers=(2,4,6,7,12,15,9,10,25,40,30)
+print("After Slicing : ",numbers[1:40:2])
+
+
+
+	
